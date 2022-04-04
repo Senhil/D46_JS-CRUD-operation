@@ -49,7 +49,7 @@ const createEmployeePayrollJSON = () => {
         _startDate: '1 Nov 2020',
         _note: '',
         _id: new Date().getTime(),
-        _profilePic: '../assets/emp2.png'
+        _profilePic: '../assets/emp1.png'
       },
       {
         _name: 'Akshay',
@@ -61,7 +61,7 @@ const createEmployeePayrollJSON = () => {
         _startDate: '1 Dec 2020',
         _note: '',
         _id: new Date().getTime() + 1,
-        _profilePic: '../assets/emp4.png'
+        _profilePic: '../assets/emp3.png'
       }
     ];
     return empPayrollListLocal;
