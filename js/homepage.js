@@ -39,8 +39,8 @@ const createInnerHTML =()=>{
 const createEmployeePayrollJSON = () => {
     let empPayrollListLocal = [
       {       
-        _name: 'Priyanka',
-        _gender: 'female',
+        _name: 'SK',
+        _gender: 'male',
         _department: [
             'Engineering',
             
@@ -52,13 +52,13 @@ const createEmployeePayrollJSON = () => {
         _profilePic: '../assets/emp2.png'
       },
       {
-        _name: 'Kynat',
-        _gender: 'female',
+        _name: 'Akshay',
+        _gender: 'male',
         _department: [
             'Sales'
         ],
         _salary: '400000',
-        _startDate: '1 Nov 2020',
+        _startDate: '1 Dec 2020',
         _note: '',
         _id: new Date().getTime() + 1,
         _profilePic: '../assets/emp4.png'
